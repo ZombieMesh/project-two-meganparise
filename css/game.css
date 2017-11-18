@@ -1,0 +1,28 @@
+.background    {background-image: url("http://www.publicdomainpictures.net/pictures/170000/velka/caves-background-5.jpg");
+                 background-repeat: no-repeat;
+				 background-position: left;
+				 background-size: 85%% ;
+				 table-layout: fixed;
+                 border-spacing: 0;   }
+.background td { padding: 0;          }
+.lava          { background: rgb(107, 150, 165) }
+.wall          { background: grey;   }
+.floater	   { background: rgb(70, 70, 70); }
+
+.actor  { position: absolute;  }
+.player { background: rgb(255, 127, 80); }
+.coin { background: rgb(241, 229, 89); }
+.key {background: green; }
+
+.game {
+  overflow: hidden;
+  max-width: 600px;
+  max-height: 450px;
+  position: relative;
+}
+
+.lost .player {
+  background: rgb(44, 54, 77);
+}
+.won .player {
+  box-shadow: -4px -7px 8px yellow, 4px -7px 8px yellow;
